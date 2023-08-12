@@ -1,0 +1,42 @@
+{
+  "intents": [
+    {
+      "tag": "correspondences-overview",
+      "patterns": [
+        "معاملات",
+        "ما هي المعاملات",
+        "اشرح لي عن معاملات",
+        "كيف تعمل المعاملات",
+        "وحدة المعاملات",
+        "ماذا تعني معاملات"
+      ],
+      "responses": [
+        "you are looking for correspondence overview"
+      ]
+    },
+    {
+      "tag": "meetingd-overview",
+      "patterns": [
+        "اجتماعات",
+        "ما هي اجتماعات",
+        "اشرح لي عن اجتماعات",
+        "كيف تعمل اجتماعات",
+        "وحدة اجتماعات",
+        "ماذا تعني اجتماعات"
+      ],
+      "responses": [
+        "you are looking for meetings overview"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["شكرا", "مشكور", "مع السلامة", "Thank's a lot!"],
+      "responses": ["عفوا", "اهلا", "My pleasure"]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["مرحبا", "كيفك", "كيف حالك", "السلام عليكم"],
+      "responses": ["و عليكم السلام", "اهلا", "welcom"]
+    }
+  ]
+}
